@@ -18,7 +18,7 @@
 
 <div>
   <img
-    src="https://thelastbook.github.io/sheet/tlb-logo.png"
+    src="https://raw.githubusercontent.com/thelastbook/roll20-sheet/master/tlb-logo.png"
     alt="The Last Book" />
   <span>&mdash; A Sword & Sorcery Game &mdash;</span>
 </div>

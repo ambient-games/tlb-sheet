@@ -30,8 +30,8 @@
       width: 100%;
       height: 15px;
       background: transparent
-        url("https://thelastbook.github.io/sheet/strip.png") center bottom
-        no-repeat;
+        url("https://raw.githubusercontent.com/thelastbook/roll20-sheet/master/strip.png")
+        center bottom no-repeat;
       background-size: auto 30px;
     }
 

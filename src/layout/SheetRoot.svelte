@@ -71,7 +71,8 @@
     font: bold 12px / 1.5 Georgia, serif;
     color: white;
     text-transform: uppercase;
-    background: transparent url("https://thelastbook.github.io/sheet/strip.png")
+    background: transparent
+      url("https://raw.githubusercontent.com/thelastbook/roll20-sheet/master/strip.png")
       center top no-repeat;
     background-size: auto 30px;
   }
