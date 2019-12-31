@@ -4,6 +4,7 @@ import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
+import copy from "rollup-plugin-copy";
 import fs from "fs";
 import path from "path";
 import write from "write";
@@ -20,6 +21,9 @@ export default {
     file: "dist/ssr.js"
   },
   plugins: [
+    copy({
+      targets: [{ src: "src/assets/**/*", dest: "dist" }]
+    }),
     svelte({
       generate: "ssr",
       preprocess: [
